@@ -14,33 +14,6 @@ Note: the ` Applied Data Science in Medicine & Psychology/` directory name start
 with a leading space in this checkout, so quote the path when using terminal
 commands.
 
-## Repository Structure
-
-```text
-.
-├── README.md
-├──  Applied Data Science in Medicine & Psychology/
-│   ├── 0 setup notebook
-│   ├── 1_python_basics_I.ipynb
-│   ├── 2_python_basics_II.ipynb
-│   ├── 3_control_flow.ipynb
-│   ├── 4_dicts_classes.ipynb
-│   ├── 5_numpy_scipy.ipynb
-│   ├── 6_pandas.ipynb
-│   ├── 7_statistics.ipynb
-│   └── 8_visualization.ipynb
-└── Data Science Survival Skills/
-    ├── README.md
-    ├── exercise2/
-    ├── exercise3/
-    ├── exercise4/
-    ├── exercise7/
-    ├── exercise8/
-    ├── exercise9/
-    ├── exercise10/
-    ├── exercise11/
-    └── exercise12/
-```
 
 ## Applied Data Science in Medicine & Psychology
 
@@ -81,24 +54,7 @@ Exercises 1, 5, and 6 are not present in this checkout.
 | 11 | `exercise11/exercise_11*.ipynb`, `sum.c`, `sum.h` | Compares Cython and Numba, including static typing, typed memoryviews, C-style loops, compile optimization, multithreading, and calling C code. |
 | 12 | `exercise12/exercise_12*.ipynb`, `labelfile.txt` | Converts models to TensorFlow Lite, applies quantization, and adds metadata for deployment to edge devices such as smartphones or microcontrollers. |
 
-## Data Files and Assets
 
-- `Data Science Survival Skills/exercise3/IT Salary Survey EU  2020.csv`:
-  salary-survey data used for exploration and visualization.
-- `Data Science Survival Skills/exercise3/covid_19.csv`: COVID time-series data.
-- `Data Science Survival Skills/exercise8/BAGLS_4096.zip`: image dataset archive
-  for segmentation work.
-- `Data Science Survival Skills/exercise8/uneth5.sec`: saved U-Net model file.
-- `Data Science Survival Skills/exercise8/history.csv`: training history with
-  loss, accuracy, and IoU score.
-- `Data Science Survival Skills/exercise11/sum.c` and `sum.h`: small C helper
-  used in the Cython exercise.
-- `Data Science Survival Skills/exercise12/labelfile.txt`: class labels for
-  TensorFlow Lite metadata.
-
-## Running the Notebooks
-
-The notebooks can be opened in Google Colab or JupyterLab.
 
 Recommended local setup:
 
